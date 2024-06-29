@@ -5,4 +5,4 @@ from . models import *
 class ReactSerializer(serializers.ModelSerializer):
     class Meta:
         model = React
-        feilds = ['name', 'detail']
+        fields = '__all__'
